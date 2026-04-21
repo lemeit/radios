@@ -1,22 +1,14 @@
 {
   "name": "MiRadio",
   "short_name": "MiRadio",
-  "description": "Reproductor de radios argentinas en streaming",
+  "description": "Radios argentinas en streaming",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#0e0800",
-  "theme_color": "#1a0f00",
+  "background_color": "#0f1923",
+  "theme_color": "#0f1923",
   "orientation": "portrait",
   "icons": [
-    {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
   ]
 }
