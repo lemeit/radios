@@ -1,5 +1,5 @@
-const CACHE = 'miradio-v5';
-const ASSETS = ['./', './index.html', './manifest.json'];
+const CACHE = 'miradio-v6';
+const ASSETS = ['./', './index.html', './manifest.json', './hls.min.js'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
   self.skipWaiting();
